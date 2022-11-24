@@ -7,24 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fundacion-promesas-de-cristo';
-
-
-  datosMenu = [
-  {
-    'titulo':'¿QUIÉNES SOMOS?',
-    'url':''
-  },
-  {
-    'titulo':'PROYECTOS',
-    'url':''
-  },
-  {
-    'titulo':'HAZTE VOLUNTARIO',
-    'url':''
-  },
-  {
-    'titulo':'DONACIONES',
-    'url':''
-  }
-];
 }
