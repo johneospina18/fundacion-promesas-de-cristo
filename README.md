@@ -1,1 +1,2 @@
 # fundacion-promesas-de-cristo
+La fundación promesas de Cristo, es una entidad sin ánimo de lucro que procura principalmente ayudar a los más necesitados brindando alimentos, academia y actividades extracurriculares y además predicar el evangelio del cristianismo, la página de esta fundación es implementada con el ánimo de mostrar al mundo la utilidad y los objetivos de dicha entidad, además de proporcionar contactos y ayudas para ser parte del voluntariado y la realización de donaciones.
