@@ -1,0 +1,77 @@
+@media screen and (max-width:1000px){
+    h3{
+        position: absolute;
+    }
+    #box-messages{
+        display: flex;
+        flex-wrap: wrap;
+        } 
+}
+
+#box-messages{
+    background-color: #f1f5ec;
+    display: flex;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+h3{
+    position: relative;
+    background-color: #ecd923;
+    height: 50px;
+    width:160px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+    margin-left: -35px;
+    margin-bottom: 35px;
+}
+
+h5{
+    position: relative;
+    left: 15px;
+    display: block;
+    color: #ecd923;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    margin-left: 0.5%;
+}
+
+p{
+    position: relative;
+    left: 15px;
+    margin-left: 1%;
+}
+
+input{
+    margin-bottom: 1%;
+    display: block;
+    position:relative;
+    top:35px;
+    width: 50%;
+}
+
+#principalBox{
+  /*  background-color: */
+    position: relative;
+    top: 20%;
+
+}
+
+.message{
+    position: relative;
+    left: 50%;
+    top: -25%;
+    height: 150px;
+    width: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+button{
+    background-color: #f5da0b;
+    position: relative;
+    left: 92%;
+    top: -20%;
+}
