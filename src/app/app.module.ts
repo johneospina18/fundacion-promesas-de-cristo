@@ -7,6 +7,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ContactoPageComponent } from './pages/contacto-page/contacto-page.component';
+import { EncabezadoComponent } from './encabezado/encabezado.component';
+import { BoxMessagesComponent } from './box-messages/box-messages.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ContactoPageComponent } from './pages/contacto-page/contacto-page.compo
     FooterComponent,
     HomePageComponent,
     MenuComponent,
-    ContactoPageComponent
+    ContactoPageComponent,
+    EncabezadoComponent,
+    BoxMessagesComponent
   ],
   imports: [
     BrowserModule,
