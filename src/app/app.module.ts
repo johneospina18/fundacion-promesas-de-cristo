@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
-import { ContactoPageComponent } from './pages/contacto-page/contacto-page.component';
-import { EncabezadoComponent } from './encabezado/encabezado.component';
-import { BoxMessagesComponent } from './box-messages/box-messages.component';
+import { BoxMessagesComponent } from './components/box-messages/box-messages.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,15 @@ import { BoxMessagesComponent } from './box-messages/box-messages.component';
     FooterComponent,
     HomePageComponent,
     MenuComponent,
-    ContactoPageComponent,
-    EncabezadoComponent,
-    BoxMessagesComponent
+    BoxMessagesComponent,
+    HeaderComponent,
+    ContactPageComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [FooterComponent],
   bootstrap: [AppComponent]

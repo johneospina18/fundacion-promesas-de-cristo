@@ -1,0 +1,14 @@
+<form [formGroup]="contactForm" action="">
+    <div class="container-xl row" id="principalBox">
+        <div class="container col-md-4" id="personalInfo">
+                <input formControlName="name" class="input-group input-group-sm mb-3" id="input" type="text"  placeholder="Nombre" required>
+                <input formControlName="email"class="input-group input-group-sm mb-3" id="input" type="email" placeholder="Email" required>
+                <input formControlName="subject" class="input-group input-group-sm mb-3" id="input" type="text"  placeholder="Asunto" required>
+        </div>
+        <div class="container-xl col-md-8" id="textMessage">
+            <textarea formControlName="message" class="form-control" id="message" type="text" placeholder="Mensaje" required></textarea>
+            <button class="btn btn-primary btn-sm" [disabled]="!contactForm.valid" (click)="save()">Enviar</button>
+        </div>
+    </div>   
+</form>
+<div *ngIf="contactForm.invalid && (contactForm.dirty || (contactForm.touched))" class="alert alert-check">¡Por favor llena todos los campos!</div> 

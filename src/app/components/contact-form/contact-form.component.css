@@ -1,0 +1,37 @@
+@media screen and (max-width:1100px){
+    #box-messages{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+}
+
+button:disabled{
+  background-color:#e3e4e5;
+  color: black;
+  border-color: black;
+}
+
+button{
+    color: black;
+    background-color: #f5da0b;
+    border-color: black;
+    float: right;
+}
+#message{
+height: 90%;
+margin-bottom: 1px;
+}
+
+#personalInfo{
+width: 49%;
+}
+
+#principalBox{
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  #textMessage{
+    width:49%;
+  }

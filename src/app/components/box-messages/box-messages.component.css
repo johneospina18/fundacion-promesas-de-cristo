@@ -1,11 +1,12 @@
-@media screen and (max-width:1000px){
+@media screen and (max-width:1100px){
     h3{
-        position: absolute;
+        position: relative;
+        left: 5%;
     }
     #box-messages{
         display: flex;
         flex-wrap: wrap;
-        } 
+        }    
 }
 
 #box-messages{
@@ -44,34 +45,9 @@ p{
     margin-left: 1%;
 }
 
-input{
-    margin-bottom: 1%;
-    display: block;
-    position:relative;
-    top:35px;
-    width: 50%;
-}
 
-#principalBox{
-  /*  background-color: */
-    position: relative;
-    top: 20%;
 
-}
 
-.message{
-    position: relative;
-    left: 50%;
-    top: -25%;
-    height: 150px;
-    width: 50%;
-    margin-left: 6px;
-    margin-right: 6px;
-}
 
-button{
-    background-color: #f5da0b;
-    position: relative;
-    left: 92%;
-    top: -20%;
-}
+
+
