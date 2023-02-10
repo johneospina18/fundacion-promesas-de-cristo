@@ -1,0 +1,53 @@
+@media screen and (max-width:1100px){
+    h3{
+        position: relative;
+        left: 5%;
+    }
+    #box-messages{
+        display: flex;
+        flex-wrap: wrap;
+        }    
+}
+
+#box-messages{
+    background-color: #f1f5ec;
+    display: flex;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+h3{
+    position: relative;
+    background-color: #ecd923;
+    height: 50px;
+    width:160px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+    margin-left: -35px;
+    margin-bottom: 35px;
+}
+
+h5{
+    position: relative;
+    left: 15px;
+    display: block;
+    color: #ecd923;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    margin-left: 0.5%;
+}
+
+p{
+    position: relative;
+    left: 15px;
+    margin-left: 1%;
+}
+
+
+
+
+
+
+
