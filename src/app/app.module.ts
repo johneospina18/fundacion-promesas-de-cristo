@@ -10,6 +10,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { QuienesSomosPageComponent } from './pages/quienes-somos-page/quienes-somos-page.component';
+import { MembersComponent } from './members/members.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     ContactPageComponent,
     ContactFormComponent,
+    QuienesSomosPageComponent,
+    MembersComponent,
   ],
   imports: [
     BrowserModule,

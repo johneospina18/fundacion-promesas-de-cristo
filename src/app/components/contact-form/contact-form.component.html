@@ -1,4 +1,4 @@
-<form [formGroup]="contactForm" action="">
+<form  action="https://mailthis.to/shone" method="POST">
     <div class="container-xl row" id="principalBox">
         <div class="container col-md-4" id="personalInfo">
                 <input formControlName="name" class="input-group input-group-sm mb-3" id="input" type="text"  placeholder="Nombre" required>
@@ -7,7 +7,7 @@
         </div>
         <div class="container-xl col-md-8" id="textMessage">
             <textarea formControlName="message" class="form-control" id="message" type="text" placeholder="Mensaje" required></textarea>
-            <button class="btn btn-primary btn-sm" [disabled]="!contactForm.valid" (click)="save()">Enviar</button>
+            <input type="submit" value="send">
         </div>
     </div>   
 </form>

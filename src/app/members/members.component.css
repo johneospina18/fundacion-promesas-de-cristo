@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffcc;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .member {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .member-info {
+    text-align: center;
+  }
+  
+  .member-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .member-position {
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  .member-profession {
+    margin-top: 5px;
+  }
