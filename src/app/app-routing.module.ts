@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { QuienesSomosPageComponent } from './pages/quienes-somos-page/quienes-somos-page.component';
+import { JoinUsPageComponent } from './pages/join-us-page/join-us-page.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
     path:"quienes-somos",
     component: QuienesSomosPageComponent,
   },
+  {
+    path:"join-us",
+    component: JoinUsPageComponent,
+  }
 ];
 
 @NgModule({

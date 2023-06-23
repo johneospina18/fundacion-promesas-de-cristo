@@ -12,6 +12,9 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { ReactiveFormsModule } from '@angular/forms';
 import { QuienesSomosPageComponent } from './pages/quienes-somos-page/quienes-somos-page.component';
 import { MembersComponent } from './members/members.component';
+import { JoinUsPageComponent } from './pages/join-us-page/join-us-page.component';
+import { JoinUsTextComponent } from './components/join-us-text/join-us-text.component';
+import { HistoryTextComponent } from './history-text/history-text.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { MembersComponent } from './members/members.component';
     ContactFormComponent,
     QuienesSomosPageComponent,
     MembersComponent,
+    JoinUsPageComponent,
+    JoinUsTextComponent,
+    HistoryTextComponent,
   ],
   imports: [
     BrowserModule,

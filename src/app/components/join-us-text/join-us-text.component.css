@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffcc;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .join-us {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .join-us-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .join-us-description {
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  .volunteers-list {
+    margin-top: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .join-us {
+      padding: 10px;
+    }
+  }
