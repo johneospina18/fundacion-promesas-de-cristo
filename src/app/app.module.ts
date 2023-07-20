@@ -10,6 +10,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MakeVolunteerPageComponent } from './pages/make-volunteer-page/make-volunteer-page.component';
+import { WhoWeArePageComponent } from './pages/who-we-are-page/who-we-are-page.component';
+import { StoryComponent } from './components/story/story.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     ContactPageComponent,
     ContactFormComponent,
+    MakeVolunteerPageComponent,
+    WhoWeArePageComponent,
+    StoryComponent,
   ],
   imports: [
     BrowserModule,
